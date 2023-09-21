@@ -1,6 +1,6 @@
 package com.mycompany.calculadorateste;
 
-public class Calculadora { //Classe da calculadora
+public class CalculadoraJUnit { //Classe da calculadora
     //métodos das operações matématicas a serem feitas pela calculadora.
  
     public int somar(int a, int b){//método de soma
@@ -12,8 +12,9 @@ public class Calculadora { //Classe da calculadora
     }
   
     public String dividir(int a, int b){//método de divisão
+        //esse método é string para poder retornar a mensagem de não ser possível se dividir por 0.
         String resultado;
-        if(b == 0){
+        if(b == 0){ //estrutura para não permitir dividir por zero
             resultado = "Não se pode dividir por zero.";
             return resultado;
         }else{

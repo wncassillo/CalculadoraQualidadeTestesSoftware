@@ -6,12 +6,8 @@ package com.mycompany.calculadorateste;
 public class CalculadoraTeste {
 
     public static void main(String[] args) {
-        Teste teste = new Teste();//Criando instância da classe de testes.
-        //Chamando métodos de testes manuais:
-        teste.testarSomar();
-        teste.testarSubtrair();
-        teste.testarDividir();
-        teste.testarMultiplicar(); 
+        //Nessa versão da calculadora, em que os textes são feitos pelo JUnit, 
+        //pouco importa o que esteja no main, por isso ele está vazio.
         
     }
 }
