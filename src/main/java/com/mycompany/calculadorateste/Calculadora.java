@@ -11,6 +11,9 @@ public class Calculadora { //Classe da calculadora
         return a-b;
     }
   
+    //Diferente dos outros métodos correspondentes as outras operações matemáticas
+    // o método dividir retorna uma String, para que ele possa responder com uma frase
+    // as tentativas de fazer uma divisão por zero.
     public String dividir(int a, int b){//método de divisão
         String resultado;
         if(b == 0){
