@@ -4,7 +4,7 @@ package com.mycompany.calculadorateste;
  *
  * @author cassi
  */
-public class TesteManual { //Classe criada para abrigar os métodos de teste.
+public class Teste { //Classe criada para abrigar os métodos de teste.
     
     public void testarSomar(){//Testar método de soma
         Calculadora calc = new Calculadora();
