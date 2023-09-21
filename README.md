@@ -9,6 +9,6 @@ O projeto conta com uma calculadora capaz de realizar as quatro operações mate
 - Divisão
 - Multiplicação
   
-Além disso o projeto conta com uma classe de teste que  coloca à prova o funcionamento da calculadora.
+Além disso o projeto conta com uma classe de teste que  coloca à prova o funcionamento de cada uma das operações da calculadora.
 
 ## Última Atualização 21/09/2023
